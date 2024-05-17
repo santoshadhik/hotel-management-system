@@ -2,14 +2,14 @@
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './component/Navbar/Navbar';
-import Services from './component/Services/Service';
-import About from './component/About/About';
-import Contact from './component/Contact/Contact';
-import Rooms from './component/Room/Room';
-import Home from './component/Home/Home';
-import Login from './component/Login/Signin'
-import Signup from './component/Login/Signup';
+import Navbar from './component/Frontpage/Navbar/Navbar';
+import Services from './component/Frontpage/Services/Service';
+import About from './component/Frontpage/About/About';
+import Contact from './component/Frontpage/Contact/Contact';
+import Rooms from './component/Frontpage/Room/Room';
+import Home from './component/Frontpage/Home/Home';
+import Login from './component/Frontpage/Login/Signin'
+import Signup from './component/Frontpage/Login/Signup';
 import Homepage from './Pages/Admin/Homepage/Homepage';
 
 const App = () => {
@@ -18,6 +18,7 @@ const App = () => {
       <Navbar />
       
       <Routes>
+      <Route path="/admin" element={<Homepage/>} />
         <Route exact path="/" element={<Home/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/about" element={<About/>} />
@@ -25,7 +26,6 @@ const App = () => {
         <Route path="/rooms" element={<Rooms/>} />
         <Route path="/signin" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />
-        <Route path="/admin" element={<Homepage/>} />
       </Routes>
     </BrowserRouter>
   );

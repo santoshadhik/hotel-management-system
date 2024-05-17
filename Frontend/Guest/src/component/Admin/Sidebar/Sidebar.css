@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.container {
+.sidebar-container {
   background-color: rgb(136, 141, 150);
   height: 100%;
   width: 13%;
@@ -12,7 +12,7 @@
   left: 0;
   position: fixed;
 }
-.logo h1{
+.logo > h1{
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -24,7 +24,7 @@
   padding-top: 20px;
   font-size: 22px;
 }
-.list ul li  {
+.list > ul > li  {
   list-style: none;
   padding-top: 30px;
   display: flex;

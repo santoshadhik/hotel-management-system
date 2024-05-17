@@ -11,7 +11,7 @@ import { CiCircleChevLeft, CiCircleChevRight } from "react-icons/ci";
 const Sidebar = () => {
   return (
     <>
-      <div className="container">
+      <div className="sidebar-container">
         <div className="logo">
           <h1>ADMIN</h1>
         </div>

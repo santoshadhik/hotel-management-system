@@ -4,7 +4,8 @@ import Sidebar from'../../../component/Admin/Sidebar/Sidebar'
 
 const Homepage = () => {
   return (
-    <div><Navbar/>
+    <div>
+      <Navbar/>
     <Sidebar/>
     </div>
   )

@@ -18,7 +18,7 @@
     position: fixed;
     z-index: 1;
 }
-.heading{
+.admin-heading{
     padding-top: 6px;
     width: 40%;
     text-align: center;
@@ -48,7 +48,7 @@
 .search-icon{
     padding-top: 4px;
 }
-.search-item input{
+.search-item > input{
     background-color: transparent;
    outline: none;
     padding: 3px;
