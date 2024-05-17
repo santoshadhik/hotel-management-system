@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(136, 141, 150);
+  height: 100%;
+  width: 13%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.logo h1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 22px;
+}
+.list ul li  {
+  list-style: none;
+  padding-top: 30px;
+  display: flex;
+  gap: 15px;
+  font-weight: 500;
+ 
+}
+
