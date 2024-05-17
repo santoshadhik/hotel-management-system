@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import hotel_logo from '../../assets/Hotel-logo.jpg';
+import hotel_logo from '../../../assets/Hotel-logo.jpg';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaGoogle, FaTwitter} from 'react-icons/fa';
 const Navbar = () => {

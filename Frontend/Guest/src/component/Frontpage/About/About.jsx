@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css"; 
 import { FaPeopleGroup, FaHotel } from 'react-icons/fa6';
 import { IoIosPeople } from 'react-icons/io';
-import hotel1_gallery from '../../../assets/hotel1_gallery.jpg'
+import hotel1_gallery from '../../../assets/hotel-gallery.jpg'
 import hotel2_gallery from '../../../assets/hotel1-gallery.jpg'
 import hotel3_gallery from '../../../assets/hotel2-gallery.jpg'
 import hotel4_gallery from '../../../assets/hotel3-gallery.jpg'
