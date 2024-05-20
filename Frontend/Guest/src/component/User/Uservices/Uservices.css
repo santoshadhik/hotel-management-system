@@ -1,0 +1,50 @@
+.services {
+    padding: 20px;
+  }
+  
+  .facility-con {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .facility-con >h1{
+    position: relative;
+    padding: 5px;
+    font-weight: 500;
+    
+  }
+  .facility-con >h1::before{
+    content: "";
+    position: absolute;
+    left: 41%;
+    transform: translate(50% -50%);
+    bottom:0;
+    background-color: red;
+    width: 14rem;
+    height: 2px;
+    
+  }
+  
+  .facility-list {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .facility-list>ul {
+    columns: 3; 
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .facility-item {
+    font-size: 18px; 
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .facility-item span {
+    margin-right: 10px;
+  }
+  
