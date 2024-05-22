@@ -35,7 +35,7 @@ const Uhome = () => {
         }}
         navigation={true}
         modules={[Pagination ,Autoplay]}
-        className="mySwiper"
+        className="mySwiper-home"
       >
         <SwiperSlide>
           <div className="background">

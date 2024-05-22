@@ -33,6 +33,15 @@ const Unavbar = () => {
             Service
           </Link>
         </li>
+        <li className="navbar-item">
+          <Link to="/about" className="navbar-link">
+            <li className="navbar-item">
+          <Link to="/banquetsconferencehallandmeetingrooms" className="navbar-link">
+          BANQUETS, CONFERENCE HALL AND MEETING ROOMS
+          </Link>
+        </li>
+          </Link>
+        </li>
        
         <li className="navbar-item">
           <Link to="/gallery" className="navbar-link">
@@ -42,6 +51,11 @@ const Unavbar = () => {
         <li className="navbar-item">
           <Link to="/contact" className="navbar-link">
             Contact
+          </Link>
+        </li>
+        <li className="navbar-item">
+          <Link to="/dining" className="navbar-link">
+            Dining
           </Link>
         </li>
       </ul>

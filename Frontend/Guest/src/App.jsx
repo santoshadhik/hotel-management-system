@@ -14,11 +14,14 @@ import Login from './component/User/Ulogin/Usignin'
 import Signup from './component/User/Ulogin/Usignup';
 import Homepage from './Pages/Adminpage/Homepage/Homepage';
 import Gallery from './component/User/Ugallery/Ugallery'
+import Dining from './component/User/Udining/Udining'
+import Sidebar from './component/User/Usidebar/Usidebar';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
+    
+      <Sidebar/>
       
       <Routes>
       <Route path="/admin" element={<Homepage/>} />
@@ -31,6 +34,10 @@ const App = () => {
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/signin" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />
+        <Route path="/dining" element={<Dining/>} />
+        <Route path="/sidebar" element={<Sidebar/>} />
+
+
       </Routes>
     </BrowserRouter>
   );
